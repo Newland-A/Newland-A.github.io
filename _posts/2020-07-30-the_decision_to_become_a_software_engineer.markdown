@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Decision to become a Software Engineer"
-date:       2020-07-30 18:35:46 +0000
+date:       2020-07-30 14:35:46 -0400
 permalink:  the_decision_to_become_a_software_engineer
 ---
 
@@ -31,7 +31,7 @@ After, I applied to multiple different schools. I started doing the pre-work spe
 
 I finished my prepwork for Flatiron on July 17th. My cohort doesn't start til August 17th. I have a whole month to wait for it to start. During this time I have created my first website of being back in the game. I'm currently working on my own blog post. I have still spent 6 to 8 hrs a day studying, practicing code and finding the answers to my puzzle.
 
-So, that's brings my journey to now. A little insight into where I want to be 10 years from now. Is in a great company being able to work from home and work where ever I am in the world. Have the flexibility of being on the water, in the mountains, or just a long road trip. While earning a respectable income to have financial and life freedom. I have the drive to succeed and accomplish the goals for the company and myself. 
+So, that's brings my journey to now. A little insight into where I want to be 10 years from now. Is in a great company being able to work from home and work where ever I am in the world. Have the flexibility of being on the water, in the mountains, or just a long road trip. While earning a respectable income to have financial and life freedom. I have the drive to succeed and accomplish the goals for the company and myself. I am willing to put in the long hours that is required to learn as much as I can during these beginning stages. WIth everyday my knowledge will grow and the things I am Having to think about now, will be second nature as long as I keep going and stay driven.
 
 This is my first blog post I am open to any advice, improvements and suggestions. Thank you for taking the time to read a bit about my journey. I look forward to learning as much as possible and forever furthering my career by continuing to always keep learning. 
 
