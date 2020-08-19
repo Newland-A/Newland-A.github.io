@@ -50,12 +50,19 @@ pwd to find out what directory your currently in.
 Then, go to the directory that contains your file.
 
 #Where you keep your lab files
+
 cd Flatiron\ code/ 
+
 #Use this to print a list of files in the directory
+
 ls
+
 #The list of files in that directory
+
 filename.rb filename.rb and so on...
+
 #Once, you find the file you want to run in the directory. Run this in the terminal
+
 ruby filename.rb
 
 Then the file will run in the terminal. If you have properly setup the file. If not take it one step at a time and work through the error messages they are their to help you. Become one with them. I know they seem overwhelming, but they are your friend. After, you have spent several minutes on it and tried to work through it on your own. You have researched, went through your notes, used google to its fullest and you still cant seem to get the tests to pass. ASK A QUESTION. In the slack community. on the learn.co page. Reach out. Someone is willing and able to help. FInd a partner and start a Zoom chat. Working with others is a great way to talk it out. Explaining it to someone helps to help you understand it better. 
