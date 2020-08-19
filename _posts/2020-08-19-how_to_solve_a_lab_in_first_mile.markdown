@@ -51,7 +51,9 @@ Then, go to the directory that contains your file.
 
 #Where you keep your lab files
 
-cd Flatiron\ code/ 
+cd Directory\ folder/ 
+
+If you try this and get an error message saying no file found. Just cd back to the main directory.
 
 #Use this to print a list of files in the directory
 
