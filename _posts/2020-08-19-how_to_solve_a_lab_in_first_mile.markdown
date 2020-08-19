@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "HOW TO SOLVE A LAB IN FIRST MILE?!"
-date:       2020-08-19 09:57:20 +0000
+date:       2020-08-19 05:57:21 -0400
 permalink:  how_to_solve_a_lab_in_first_mile
 ---
 
@@ -38,17 +38,24 @@ I highly suggest reading this book and doing some or all of the lessons if you f
 
 To distinguish the 'here doc operator' an arbitrary String delimiter has to immediately follow the '<<'. Everything inbetween that initial delimiter and the second occurrence of that same delimiter will be part of the final string. It is also possible to use '<<-', the difference is that using the latter will ignore any leading or trailing whitespace.
 
-In the poem string it also uses \n, \t. \n creates a linebreak. \t tabs in the line.
+In the poem string it also uses \n, \t. 
+\n creates a linebreak. 
+\t tabs in the line.
 
 The following commands are used in the terminal to test and submit your labs. 
 learn is used to test the labs. Make sure to save your file before running learn. This can be done using command S. Once you have all labs passing you would type the learn submit command into the terminal. If you want to test the file without submitting it. I recommend saving the file. Going into the directory where the file is located using cd - change directory. pwd - print working directory, and ls - list the files in the directory.
 
 pwd to find out what directory your currently in.
-Then, go to the directory that contains your file.
-cd Flatiron\ code/ 
-ls
-filename.rb filename.rb and so on...
 
+Then, go to the directory that contains your file.
+
+#Where you keep your lab files
+cd Flatiron\ code/ 
+#Use this to print a list of files in the directory
+ls
+#The list of files in that directory
+filename.rb filename.rb and so on...
+#Once, you find the file you want to run in the directory. Run this in the terminal
 ruby filename.rb
 
 Then the file will run in the terminal. If you have properly setup the file. If not take it one step at a time and work through the error messages they are their to help you. Become one with them. I know they seem overwhelming, but they are your friend. After, you have spent several minutes on it and tried to work through it on your own. You have researched, went through your notes, used google to its fullest and you still cant seem to get the tests to pass. ASK A QUESTION. In the slack community. on the learn.co page. Reach out. Someone is willing and able to help. FInd a partner and start a Zoom chat. Working with others is a great way to talk it out. Explaining it to someone helps to help you understand it better. 
