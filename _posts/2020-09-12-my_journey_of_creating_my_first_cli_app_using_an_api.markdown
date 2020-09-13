@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My journey of creating my first CLI app using an API!"
-date:       2020-09-13 02:26:50 +0000
+date:       2020-09-12 22:26:51 -0400
 permalink:  my_journey_of_creating_my_first_cli_app_using_an_api
 ---
 
@@ -105,7 +105,9 @@ I started out by making my retrieve method
   end ```
 	
 	
-	It includes some of the comments that I made while creating the app and shows some insight on how I was able to fix some of the bugs I had with the program.
+	It includes some of the comments that I made while creating the app and shows some insight on how I was able to fix some of the bugs I had with the program. 
+	
+	If you make changes in you github, say something comes to you and you know the fix but dont have your computer but you have you phone and can get to github. You can make changes just remember to do a git pull when you get back to you computer if not it can cause merge issues. Then you have to merge using the working tree. Then do another git commit -m and git push after you have merged the files.
 	
 	Since, I started 6.times. I have six 30 minute long coding videos. 
 	
