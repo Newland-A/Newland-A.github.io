@@ -20,7 +20,8 @@ I found a restful API and used the restclient gem to be able to use JSON and ret
 
 I started out by making my retrieve method 
 
-```def self.retrieve_planets
+```
+def self.retrieve_planets
     # response = RestClient.get('https://api.le-systeme-solaire.net/rest/bodies/')
     response = RestClient.get('https://api.le-systeme-solaire.net/rest/bodies/{id}')
     planet_hash = JSON.parse(response.body, symbolize_names:true)
@@ -29,7 +30,8 @@ I started out by making my retrieve method
     planets_info = planets_array.collect { |planet| Planets.new(planet)}
     
     #binding.pry
-  end```
+  end
+	```
 	
 	I used binding.pry to test my app as I was building it to see if each piece was working the way I wanted it too.
 	
@@ -51,7 +53,8 @@ I started out by making my retrieve method
 	
 	Some of the issues I had was not being able to find a good enough API til the end. Github did not want to let me link my files and my github. Every API I choose did not like the ```gem bundler install```. Here is the beginning code for my GOT app.
 	
-	```class API
+	```
+	class API
 
   def self.create_characters
     #goes out and gets the information from the API
@@ -102,7 +105,8 @@ I started out by making my retrieve method
       HOUSES.new(name, url)
     end
 #binding.pry
-  end ```
+  end
+	```
 	
 	
 	It includes some of the comments that I made while creating the app and shows some insight on how I was able to fix some of the bugs I had with the program. 
