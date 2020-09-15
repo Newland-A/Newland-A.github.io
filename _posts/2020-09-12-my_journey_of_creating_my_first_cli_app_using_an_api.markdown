@@ -51,7 +51,7 @@ def self.retrieve_planets
 	
 	So, I then found a API on the Game of Thrones and this is where I start to see a glimmer of hope again. It was a simple API that listed characters, information on those characters and the different houses. I proceeded in starting over once again. I only had 2 days left at this point. After, creating files and doing my research and learning how to fix so many issues in such a short period of time. I was able to fully create a working app in a day. 
 	
-	Some of the issues I had was not being able to find a good enough API til the end. Github did not want to let me link my files and my github. Every API I choose did not like the `gem bundler install'. Here is the beginning code for my GOT app.
+	Some of the issues I had was not being able to find a good enough API til the end. Github did not want to let me link my files and my github. Every API I choose did not like the gem bundler install. Here is the beginning code for my GOT app.
 	
 	```
 	class API
