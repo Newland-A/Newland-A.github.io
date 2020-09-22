@@ -116,7 +116,7 @@ def self.retrieve_planets
 	Since, I started 6.times. I have six 30 minute long coding videos. 
 	
 	What I learned during this process is always believe in your self. Never be afraid to ask for help. 
-	puts "SAY I DONT KNOW IF YOU DON't KNOW"
+	puts "SAY I DONT KNOW IF YOU DON'T KNOW"
 	Trial and error is an amazing way to learn new things. keep track of the things you have tried. You can clean up your code later. Know  that your never done refactoring because everything can change and be updated.
 	
 	Thank you for reading. I appreciate any feedback. On the blog post or the code. Here to keep growing and learning with everyday. Good luck with your journey's everyone.
