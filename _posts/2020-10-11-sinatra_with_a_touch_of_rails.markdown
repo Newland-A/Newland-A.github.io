@@ -34,7 +34,7 @@ end
 
 Both models inherit from ActiveRecord:: Base. They have a  `Has_many through:` relationships with a `source: :attribute`. The has secure password and validations comes from ActiveRecord but require bcrypt to be able to use the validations. They encrypt the passwords through a salted hash. Validates checks to make sure the username and email are present and the username is unique. So that only one user can be assigned to each email.
 
-Then the validates_length_of checks to make sure the password is a minimum of 8 characters long, you can also use maximum and other verification actions. The hardest part about using a self join in the sinatra project was iterating through each pet for each owner. It took some serious tinkering and trial and error to find the right combination and right migrations to achieve the connection. I will be using this same model in my rails project and adding onto it. 
+Then the `validates_length_of` checks to make sure the password is a minimum of 8 characters long, you can also use maximum and other verification actions. The hardest part about using a self join in the sinatra project was iterating through each pet for each owner. It took some serious tinkering and trial and error to find the right combination and right migrations to achieve the connection. I will be using this same model in my rails project and adding onto it. 
 
 I want to add more features to my application that allows the users, (i.e. owners or vets) to be able to send messages back and forth and update medications or/and medical concerns. Set appointments change and cancel appointments. You would be able to select what vet office you would like to attend or did attend. Also, be able to put in perscription refills and many other features. 
 
