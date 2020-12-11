@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Have a Happy Holiday JS"
-date:       2020-12-11 12:30:02 +0000
+date:       2020-12-11 07:30:02 -0500
 permalink:  have_a_happy_holiday_js
 ---
 
@@ -37,7 +37,7 @@ Once you are getting the information from the backend you are ready to start mak
 
 I am going to display some of my fetch requests here because that maybe some help to see how they should be done if you need help. But, again there is many ways to do eveything in JS. 
 
-```
+`
 // read the information your getting from your backend
 static readList() {
     fetch('http://localhost:3000/wish_lists')
@@ -75,7 +75,7 @@ static readList() {
       document.getElementById('nested-form').reset()
       })
   }
-	```
+	`
 	
 	The above fetch requests the first one reads my information the second one takes it in and sets the values to a variable and tells the fetch request that it is a post fetch destructures the attributes that are coming in, creates a new object for the information taken in then renders the form to take in the information and after the form is submitted it will clear the form of the information provided.
 	
