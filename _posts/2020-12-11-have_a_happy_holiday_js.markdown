@@ -74,8 +74,7 @@ static readList() {
       )
       document.getElementById('nested-form').reset()
       })
-  }
-	`
+  }`
 	
 	The above fetch requests the first one reads my information the second one takes it in and sets the values to a variable and tells the fetch request that it is a post fetch destructures the attributes that are coming in, creates a new object for the information taken in then renders the form to take in the information and after the form is submitted it will clear the form of the information provided.
 	
