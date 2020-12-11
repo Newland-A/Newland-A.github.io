@@ -37,8 +37,7 @@ Once you are getting the information from the backend you are ready to start mak
 
 I am going to display some of my fetch requests here because that maybe some help to see how they should be done if you need help. But, again there is many ways to do eveything in JS. 
 
-`
-// read the information your getting from your backend
+```
 static readList() {
     fetch('http://localhost:3000/wish_lists')
     .then(resp => resp.json())
@@ -49,9 +48,7 @@ static readList() {
       })
     })
   }
-
-// posting form to the dom and grabbing the attributes inputs, clearing form after submission
-
+	
   static createList(e) {
     e.preventDefault()
     let list = {
@@ -67,14 +64,14 @@ static readList() {
     .then(resp => resp.json())
     .then(wish_lists => {
       const { id, title} = wish_lists
-      // debugger
       new WishList(id, title )
       renderNestedForm(id, title)
       document.getElementById('nested-form').addEventListener('submit',  API.createItems
       )
       document.getElementById('nested-form').reset()
       })
-  }`
+  }
+	```
 	
 	The above fetch requests the first one reads my information the second one takes it in and sets the values to a variable and tells the fetch request that it is a post fetch destructures the attributes that are coming in, creates a new object for the information taken in then renders the form to take in the information and after the form is submitted it will clear the form of the information provided.
 	
